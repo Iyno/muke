@@ -73,3 +73,65 @@ body{
     font-size: 16px;
     color: red;
 }
+
+/* 導航的設置 */
+.nav{
+    background: url(../images/nav_bg.jpg) repeat-x;
+    height: 40px;
+}
+
+.nav_left{
+    float: left;
+    width: 600px;
+    margin-left: 10px;
+
+}
+
+.nav_left li{
+    float: left;
+    line-height: 40px;
+    width: 70px;
+    margin-left: 20px;
+    /* 消除li前的符号 */
+    list-style-type: none;
+    text-align:center;
+    
+}
+/* .nav_left li a{
+    /* 去掉链接的下划线 */
+    /* text-decoration: none;
+    color: white;
+    font-size: 16px;
+} 
+*/
+
+.nav_left a:link,.top_content a:visited{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav_left a:hover,.top_content a:active{
+    color: #FF0;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.search_text{
+    width:190px ;
+    height: 25px;
+    margin-top: 8px;
+    /* position-right-center */
+    background: url(../images/search.jpg) no-repeat right center;
+    background-color: white;
+    padding-right: 25px;
+    border:1px solid #FFF;
+}
+.nav_right{
+    float: right;
+    width: 300px;
+    /* line-height: 40px; */
+    /* margin-top: 10px; */
+    font-size: 16px;
+}
