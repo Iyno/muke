@@ -23,3 +23,18 @@ add--commit--push--增加、提交、最后推送到远端
 ➜  muke git:(master) ✗ git add index.html
 ➜  muke git:(master) ✗ git commit -m "index.html"
 ➜  muke git:(master) ✗ git push origin master
+
+
+开始设置username和email，因为github每次commit都会记录他们
+$ git config --global user.name     "name"       //你的GitHub登陆名
+$ git config --global user.email    "123@126.com"//你的GitHub注册邮箱 
+1
+2
+1.5 接下来就是把本地仓库传到github上去
+git status                         # 查看修改文件
+git add -A .                       # 添加要上传的:当前目录所有文件
+git commit -m"对上传文件命名"       # 提交上传的文件 
+git push                           # （推送）上传 
+
+
+git add /目录/文件名                # 添加要上传的:指定文件
