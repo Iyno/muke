@@ -140,3 +140,77 @@ body{
     height: 310px;
     overflow: hidden;
 }
+
+.main{
+    height: 250px;
+    background-color: white;
+    margin-top: 5px;
+}
+.news{
+    width: 340px;
+    border: 1px solid #e8e8e8;
+    /* background-color: #FF0; */
+}
+.courses{
+    width: 410px;
+    border: 1px solid #e8e8e8;
+    background: #900;
+    margin:0 7px;
+}
+.sidebar{
+    width: 230px;
+    background-color: aqua;
+}
+.news,.courses,.sidebar{
+    height: 250px;;
+    float: left;
+}
+
+/* 新闻中心 */
+.title{
+    height: 35px;
+    border: 2px solid #e8e8e8;
+
+}
+
+.title_left{
+    width: 70%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #786f66;
+    float: left;
+    line-height: 35px;
+    padding-left: 20px;
+}
+
+.title_right{
+    width: 20%;
+    float: right;
+    line-height: 35px;
+}
+.title_right a{
+    text-decoration: none;
+    color: #999;
+}
+
+.pic_news img{
+    float: left;
+    margin: 10px 0 5px 5px;
+    /* margin-top: 10px; */
+}
+
+.pic_news_right{
+    float: left;
+    margin: 10px 0 5px 5px;
+   
+
+}
+
+.pic_news_right h2{
+    font-size: 16px;
+    color: #900;
+}
+
+.news_list{
+    float: left;
+}
