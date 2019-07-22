@@ -193,24 +193,50 @@ body{
     color: #999;
 }
 
+/* 控制行高line-height */
+.pic_news{
+    height: 80px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+/* 通过控制图片的间距也达到让右边新闻有间距的状态 */
 .pic_news img{
     float: left;
-    margin: 10px 0 5px 5px;
+    margin: 0 5px;
     /* margin-top: 10px; */
 }
-
-.pic_news_right{
-    float: left;
-    margin: 10px 0 5px 5px;
-   
-
-}
-
-.pic_news_right h2{
-    font-size: 16px;
-    color: #900;
+.pic_news a{
+    color: #c00;
+    text-decoration: none;
 }
 
 .news_list{
-    float: left;
+    /* float: left; */
+    margin-top: 20px;
+
 }
+
+.news_list li{
+    list-style-type: none;
+    background: url(../images/list.jpg) no-repeat;
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.news_list a:link,.news_list a:visited{
+    text-decoration: none;
+    color: #000;
+}
+.news_list a:hover,.news_list a:active{
+    text-decoration: none;
+    color: #F00;
+}
+
+.news_list span{
+    color: #999;
+    float: right;
+}
+
+
+/* 课程 */
