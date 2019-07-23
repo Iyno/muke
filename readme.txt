@@ -38,3 +38,7 @@ git push                           # （推送）上传
 
 
 git add /目录/文件名                # 添加要上传的:指定文件
+
+list-style-type可以设置列表项目符号为：
+none无项目符号，disc实心圆，circle空心圆，
+square实心方块等但是不可以设置图片为项目符号。
