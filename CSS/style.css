@@ -265,3 +265,17 @@ body{
     margin: 0 15px;
     text-align: center;
 }
+
+.video{
+    height: 185px;
+    border: 1p solid #e8e8e8;
+}
+.video_content{
+    height: 150px;
+}
+
+.sidebar_ad{
+    height: 55px;
+    border: 1px solid #e8e8e8;
+    margin-top: 10px;
+}
